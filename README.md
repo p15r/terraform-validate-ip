@@ -5,7 +5,7 @@ Check if terraform IP address is valid
 
 ```
 module "validate_ip" {
-    source  = "github.com/adversarialengineering/terraform-validate-ip"
+    source  = "github.com/p15r/terraform-validate-ip"
     ip_addr = "192.16.0.1"
 }
 
